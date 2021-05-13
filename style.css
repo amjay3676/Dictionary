@@ -1,0 +1,123 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  --webkit-font-smoothing: antialiased;
+}
+body {
+  font-family: "Indie Flower", cursive;
+  min-height: 100vh;
+  background: linear-gradient(56deg, #adf9e6, #fbadcb, #74d495);
+  background-size: 600% 600%;
+
+  -webkit-animation: AnimationName 30s ease infinite;
+  -moz-animation: AnimationName 30s ease infinite;
+  animation: AnimationName 30s ease infinite;
+}
+
+.container {
+  width: 1000px;
+  max-width: 90%;
+  margin: 0 auto;
+}
+nav {
+  background: #ff5d8f;
+  color: #fff;
+  padding: 0.5rem 0;
+}
+section.input {
+  margin-top: 50px;
+  padding: 20px;
+}
+h2 {
+  text-align: center;
+}
+.form_wrap {
+  display: flex;
+  justify-content: center;
+  padding: 20px;
+}
+.input_wrap {
+  display: flex;
+  align-items: center;
+  border: 0px solid #ff5d8f;
+  border-radius: 20px;
+}
+input {
+  border: none;
+  border-radius: 20px;
+  width: 250px;
+  height: 30px;
+  font-size: 16px;
+  outline: none;
+}
+button {
+  border-radius: 20px;
+  border: none;
+  background-color: #ff5d8f;
+  cursor: pointer;
+  width: 150px;
+  height: 30px;
+  color: #fff;
+}
+section.data {
+  max-width: 600px;
+  text-align: center;
+  margin: 0 auto;
+  margin-top: 0px;
+}
+.loading {
+  display: none;
+}
+section.data p.def {
+  font-size: 20px;
+  color: #34515e;
+  line-height: 1.6rem;
+  font-weight: bold;
+}
+.suggested {
+  background: #ff5d8f;
+  color: rgb(248, 248, 248);
+  padding: 2px 10px;
+  margin: 2px;
+  font-size: 1.2rem;
+  border-radius: 10px;
+  display: inline-block;
+}
+.audio {
+  margin-top: 20px;
+}
+
+@-webkit-keyframes AnimationName {
+  0% {
+    background-position: 0% 91%;
+  }
+  50% {
+    background-position: 100% 10%;
+  }
+  100% {
+    background-position: 0% 91%;
+  }
+}
+@-moz-keyframes AnimationName {
+  0% {
+    background-position: 0% 91%;
+  }
+  50% {
+    background-position: 100% 10%;
+  }
+  100% {
+    background-position: 0% 91%;
+  }
+}
+@keyframes AnimationName {
+  0% {
+    background-position: 0% 91%;
+  }
+  50% {
+    background-position: 100% 10%;
+  }
+  100% {
+    background-position: 0% 91%;
+  }
+}
